@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: danberd/api_yamdb:v06.12.2022
+    image: danberd/api_yamdb:v1
     restart: always
     volumes:
       - static_value:/app/static/
